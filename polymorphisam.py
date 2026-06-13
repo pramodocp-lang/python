@@ -1,6 +1,6 @@
 class Employee:
     
-    def display():
+    def display(self):
         print("\nEmployee:")
         
 
@@ -9,7 +9,7 @@ class Manager():
         print("\nManger:")
         
         
-users = [Employee, Manager]
+users = [Employee(), Manager()]
 
 for user in users:
     user.display()
