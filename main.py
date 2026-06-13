@@ -1,0 +1,1 @@
+print("My Python project is running 🚀")
