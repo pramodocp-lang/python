@@ -29,11 +29,6 @@ print(a.subject)
 
 
 
-#   1. super()
-#       super() is used to call the parent class constructor or methods.
+#   2. Multiple Inheritance
 
-#   Why use super()?
-#       Avoid duplicate code
-#       Reuse parent class logic
-#       Easier maintenance
-
+#   A class can inherit from more than one parent.
