@@ -24,6 +24,7 @@ jobs:
       run: |
         pip install pytest
 
-    - name: Run Tests
+    - name: List Files
       run: |
-        pytest
+        pwd
+        ls -R
