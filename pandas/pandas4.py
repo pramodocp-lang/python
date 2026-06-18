@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 df = pd.read_csv("employee.csv")
 
 print("\n")
@@ -27,4 +26,27 @@ print("\n")
 print("\n Column:")
 print(df.columns)
 
+
 print("\n")
+print("\n Info")
+print(df.info)
+
+
+print("\n")
+print("\n Name Only")
+print(df["Name"])
+
+
+print("\n")
+print("\n Salary >50000")
+print(df[df["Salary"] > 50000])
+
+
+
+print("\n")
+print("\n Name, Salary")
+print(df[["Name", "Salary"]])
+
+print("\n")
+
+
