@@ -12,10 +12,3 @@ bonus = calculate_bonus(salary)
 
 print("Bonus =", bonus)
 
-
-This is the common content.
-
-Added to all files.
-
-
-

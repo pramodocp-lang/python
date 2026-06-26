@@ -5,10 +5,3 @@ if num % 2 == 0:
 else:
     print("Odd Number")
 
-
-This is the common content.
-
-Added to all files.
-
-
-

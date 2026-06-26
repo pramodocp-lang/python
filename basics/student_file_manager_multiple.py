@@ -17,10 +17,3 @@ with open("student_log.txt", "r") as file:
     for student in file:
         print(student.strip())
 
-
-This is the common content.
-
-Added to all files.
-
-
-

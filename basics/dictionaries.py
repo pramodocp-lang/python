@@ -9,10 +9,3 @@ print(student)
 print(student["name"])
 print(student["city"])
 
-
-This is the common content.
-
-Added to all files.
-
-
-

@@ -13,10 +13,3 @@ print(file.read());
 
 file.close();
 
-
-This is the common content.
-
-Added to all files.
-
-
-

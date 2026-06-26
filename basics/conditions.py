@@ -9,10 +9,3 @@ elif marks >= 60:
 else:
     print("Grade D")
 
-
-This is the common content.
-
-Added to all files.
-
-
-

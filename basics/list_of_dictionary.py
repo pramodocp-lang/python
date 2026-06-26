@@ -19,10 +19,3 @@ for employee in employees:
     print("Department:", employee["department"])
     print("Salary:", employee["salary"])
 
-
-This is the common content.
-
-Added to all files.
-
-
-

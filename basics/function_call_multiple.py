@@ -7,10 +7,3 @@ welcome("Ajay");
 welcome("Sanjay");
 welcome("Ramesh");
 
-
-This is the common content.
-
-Added to all files.
-
-
-

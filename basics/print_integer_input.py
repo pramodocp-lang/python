@@ -7,10 +7,3 @@ sum = num1 + num2
 
 print("Sum =", sum)
 
-
-This is the common content.
-
-Added to all files.
-
-
-

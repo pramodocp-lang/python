@@ -14,10 +14,3 @@ print("\nGross Salary   :",  round(salary + hra + bonus, 2))
 
 
 
-
-This is the common content.
-
-Added to all files.
-
-
-

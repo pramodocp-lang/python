@@ -24,10 +24,3 @@ elif avg >= 40:
 else: 
     print("FAIL")
 
-
-This is the common content.
-
-Added to all files.
-
-
-
