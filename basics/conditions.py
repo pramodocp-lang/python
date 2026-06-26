@@ -8,3 +8,11 @@ elif marks >= 60:
     print("Grade C")
 else:
     print("Grade D")
+
+
+This is the common content.
+
+Added to all files.
+
+
+

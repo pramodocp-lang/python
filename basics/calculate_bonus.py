@@ -11,3 +11,11 @@ salary = int(input("Enter Salary: "))
 bonus = calculate_bonus(salary)
 
 print("Bonus =", bonus)
+
+
+This is the common content.
+
+Added to all files.
+
+
+

@@ -23,3 +23,11 @@ elif avg >= 40:
     print("PASS With Grade D")
 else: 
     print("FAIL")
+
+
+This is the common content.
+
+Added to all files.
+
+
+
