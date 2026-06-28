@@ -1,0 +1,343 @@
+
+==================================================
+File: C:\Users\Public\lang\python\basics\calculate_bonus.py
+==================================================
+def calculate_bonus(salary):
+    if salary > 50000:
+        return salary * 0.10
+    elif salary > 30000:
+        return salary * 0.05
+    else:
+        return salary * 0.02
+
+salary = int(input("Enter Salary: "))
+
+bonus = calculate_bonus(salary)
+
+print("Bonus =", bonus)
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\calculator.py
+==================================================
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\condition.py
+==================================================
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\conditions.py
+==================================================
+marks = int(input("Enter marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Grade D")
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\dictionaries.py
+==================================================
+student = {
+    "name": "Pramod",
+    "age": 35,
+    "city": "Delhi"
+}
+
+print(student)
+
+print(student["name"])
+print(student["city"])
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\dictionary.txt
+==================================================
+null
+New line added
+New line added  fir fist line
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\employee.py
+==================================================
+employee = {
+    "name": "Ramesh",
+    "department": "IT",
+    "salary": 56000
+}
+
+print("Name:", employee["name"])
+print("Department:", employee["department"])
+print("Salary:", employee["salary"])
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\employee_salary_calculator.py
+==================================================
+name = input("Enter Name of the Employee:")
+
+salary = int(input("Enter Salary:"))
+
+hra = round(salary * 30/ 100, 2)
+
+bonus = round(salary * 5/ 100 , 2)
+
+print("\nEmployee Name  :",  name)
+print("\nBasic Salary   :",  salary)
+print("\nHRA            :",  hra)
+print("\nBonus          :",  bonus)
+print("\nGross Salary   :",  round(salary + hra + bonus, 2))
+
+
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\exception_handling.py
+==================================================
+try:
+    age = int(input("Enter Age: "))
+    print("Your Age is", age)
+
+except ValueError:
+    print("Invalid Input. Please enter a number.")
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\file_handling.py
+==================================================
+file = open("notes.txt", "w")
+
+file.write("Hello Pramod\n")
+file.write("Welcome to Python")
+
+file.close()
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\file_handling_read.py
+==================================================
+file = open("notes.txt", "r")
+
+content = file.read()
+
+print(content)
+
+file.close()
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\file_handling_write.py
+==================================================
+file = open("notes.txt", "a")
+
+file.write("\nLearning File Handling")
+
+file.close()
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\function.py
+==================================================
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+
+print(add(5, 3))
+print(multiply(5, 3))
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\function_call_multiple.py
+==================================================
+def welcome(name):
+    print("\nWelcome    :", name)
+    
+    
+welcome("Pramod");
+welcome("Ajay");
+welcome("Sanjay");
+welcome("Ramesh");
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\list.py
+==================================================
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits[0])
+print(fruits[1])
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\list_of_dictionary.py
+==================================================
+employees = [
+
+    {
+    "name": "Ramesh",
+    "department": "IT",
+    "salary": 56000
+    },
+    {
+    "name": "Mohan",
+    "department": "IT",
+    "salary": 66000
+    },
+
+]
+
+
+for employee in employees:
+    print("Name:", employee["name"])
+    print("Department:", employee["department"])
+    print("Salary:", employee["salary"])
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\loop.py
+==================================================
+for i in range(1, 6):
+    print(i)
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\notes.txt
+==================================================
+Hello Pramod
+Welcome to Python
+Learning File Handling
+
+==================================================
+File: C:\Users\Public\lang\python\basics\print.py
+==================================================
+print("Hello Python 👋")
+print("My first program is running 🚀")
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\print_input.py
+==================================================
+name = input("Enter your name: ")
+print("Hello", name)
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\print_integer_input.py
+==================================================
+# Add two numbers entered by the user
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+sum = num1 + num2
+
+print("Sum =", sum)
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\student_file_manager.py
+==================================================
+file = open("student_log.txt", "a")
+
+student_name = input("Enter Studdent Name   :")
+
+file.write(student_name + "\n")
+
+print("Student Saved Successfully!")
+file.close()
+
+file = open("student_log.txt", "r");
+
+print(file.read());
+
+file.close();
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\student_file_manager_multiple.py
+==================================================
+with open("student_log.txt", "a") as file:
+
+    while True:
+        name = input("Enter Student Name (or 'exit' to stop): ")
+
+        if name.lower() == "exit":
+            break
+
+        file.write(name + "\n")
+
+print("All students saved successfully.")
+
+
+with open("student_log.txt", "r") as file:
+    print("\nStudent List:")
+    
+    for student in file:
+        print(student.strip())
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\student_marks_manager.py
+==================================================
+name = input("Enter Name of the students:")
+
+sub1 = int(input("Enter the mark of Sub-1:"))
+sub2 = int(input("Enter the mark of Sub-2:"))
+sub3 = int(input("Enter the mark of Sub-3:"))
+
+
+total = sub1 + sub2 +sub3
+
+avg = round(total / 3, 2)
+
+print("\nStudent Name :",  name)
+print("\nTotal Marks  :",  total)
+print("\nAverage      :",  avg)
+
+if avg >= 85:
+    print("PASS With Grade A")
+elif avg >= 75:
+    print("PASS With Grade B")
+elif avg >= 60:
+    print("PASS With Grade C")
+elif avg >= 40:
+    print("PASS With Grade D")
+else: 
+    print("FAIL")
+
+
+==================================================
+File: C:\Users\Public\lang\python\basics\table.py
+==================================================
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+
+==================================================
+Total Files Processed: 25
+==================================================
