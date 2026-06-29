@@ -1,0 +1,8 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+salary = [30000,35000,42000,50000]
+
+sns.histplot(salary)
+
+plt.show()
